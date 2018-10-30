@@ -50,7 +50,6 @@ module.exports.register = async function(req, res){
             res.status(201).json(user);
         } catch(e) {
             errorHandler(res, e);
-
         }
         
     }
